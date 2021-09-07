@@ -1,0 +1,6 @@
+image: /home/cserv1_a/soc_msc/sc17ddb/catkin_ws/src/group_project/project/find_cluedo/worlds/isaac_test_2/isaac_world_2.pgm
+resolution: 0.050000
+origin: [-15.400000, -13.800000, 0.000000]
+negate: 0
+occupied_thresh: 0.65
+free_thresh: 0.196

@@ -1,0 +1,9 @@
+<launch>
+  <arg name="world" default="/project/example/"/>
+
+  <node name="scan" pkg="find_cluedo" type="scan.py"/>
+  <node name="find_cluedo" pkg="find_cluedo" type="spawn_handler.py" output="screen">
+    <rosparam command="load" file="$(arg world)/input_points.yaml"/>
+  </node>
+
+</launch>
